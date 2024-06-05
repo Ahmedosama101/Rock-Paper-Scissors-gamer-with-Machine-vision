@@ -45,7 +45,7 @@ This project is a hand tracking game that utilizes a webcam to detect and track 
 ## How It Works
 
 - The script captures video from the webcam and processes it to detect hands using the `HandDetector` class from cvzone.
-- When the game starts, it waits for 3 seconds before capturing the player's gesture.
+- When the game starts (by pressing s), it waits for 3 seconds before capturing the player's gesture.
 - The detected gesture is compared against predefined gestures to determine the player's move.
 - Scores are updated based on the player's performance.
 
